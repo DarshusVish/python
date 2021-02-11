@@ -8,7 +8,7 @@ go = "y"
 while(go is not "n"):
     swg = [ "rock","paper","scissor" ]
     ch = random.choice(swg)
-    print(ch)
+#    print(ch)
     print("Select your choice: R for Rock  P for Paper  S for Scissor")
     ans = input("\nEnter:").lower()
 
