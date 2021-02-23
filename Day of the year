@@ -1,0 +1,29 @@
+def is_year_leap(year):
+    if (( year%400 == 0)or (( year%4 == 0 ) and ( year%100 != 0))):
+        return True
+    else:
+        return False
+#
+# Your code from LAB 4.3.1.6.
+#
+
+def days_in_month(year, month):
+    r = is_year_leap(year)
+    if (r==True):
+        yr = [0,31,29,31,30,31,30,31,31,30,31,30,31]
+        return yr
+    else:
+        yr = [0,31,28,31,30,31,30,31,31,30,31,30,31]
+        return yr
+
+def day_of_year(year, month, day):
+    yr = days_in_month(year, month)
+    d = 0
+    for i in yr:
+        d += i
+    return d  
+#
+# Write your new code here.
+#
+
+print(day_of_year(2017, 12, 31))
