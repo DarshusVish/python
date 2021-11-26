@@ -19,14 +19,8 @@ def bsearch(list,n):
 
 
 ll = [x for x in range(1,1000)]
-n = 2000
+n = 200
 if bsearch(ll,n):
     print("Found at",p+1)
 else:
     print("Not found")
-
-a = 30
-b = 4
-
-c = 30 if a<b else 50
-print(c)
