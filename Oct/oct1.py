@@ -81,7 +81,6 @@
 
 
 ########################################################
-
 def prime_num(v,d):
     for n in range(v,d):
         k = True
@@ -94,3 +93,6 @@ def prime_num(v,d):
         if k:
             ll.append(n)
 
+ll = []
+prime_num(1,10)
+print(ll)
