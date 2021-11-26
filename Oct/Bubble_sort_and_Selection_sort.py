@@ -20,6 +20,6 @@ def ssort(list):
 
 
 ll = [2,4,1,9,5,3]
-ssort(ll)
+bsort(ll)
 
 print(ll)
