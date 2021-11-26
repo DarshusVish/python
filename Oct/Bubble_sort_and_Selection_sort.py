@@ -19,7 +19,7 @@ def ssort(list):
         list[m] = temp
 
 
-ll = [2,4,1,9,5,3,7]
+ll = [2,4,1,9,5,3]
 ssort(ll)
 
 print(ll)
