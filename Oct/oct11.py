@@ -1,23 +1,24 @@
-myPrimeNumbers = []
-i = 1
-while i <= 10:
+#############################################
+# def isPrime(n):
+#     for i in range(2,int(n**0.5)+1):
+#       if (n%i == 0):
+#         return False
+#     else:
+#       return True
+#
+# ll = []
+# for i in range(100):
+#   if isPrime(i):
+#     ll.append(i)
+#
+# print(ll)
+# print(len(ll))
 
-  if i > 1:
-    isPrime = True
-  else:
-    isPrime = False
+print(ord("a"),chr(98))
+n = 153
+sum1 = [int(s)**(len(str(n))) for s in str(n)]
+print(sum(sum1) == n)
 
-  j = 2
-  while j < i:
-    if i%j == 0:
-      isPrime = False
-      break
-    j += 1
+import math
 
-  if isPrime:
-    # print(i, "is a prime number")
-    myPrimeNumbers.append(i)
-
-  i += 1
-
-print(myPrimeNumbers)
+print(math.__dict__())

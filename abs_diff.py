@@ -1,3 +1,4 @@
+
 def mindiff(n,arr):
     arr.sort()
     x = arr[1] - arr[0]
@@ -9,3 +10,11 @@ def mindiff(n,arr):
 n=4
 arr = [4,3,2,1]
 mindiff(n,arr)
+
+from Test1.pack1.fact import facto
+print(facto(5))
+
+
+from Test1.pack2.fibbb import fib
+x = [fib(x) for x in range(10)]
+print(x)

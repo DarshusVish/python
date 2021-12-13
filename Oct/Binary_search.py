@@ -1,4 +1,4 @@
-p = -1
+P = -1
 
 def bsearch(list,n):
     l = 0
@@ -7,8 +7,8 @@ def bsearch(list,n):
         mid = (l+u)//2
 
         if list[mid] == n:
-            globals() ['p'] = mid
-            return True
+            globals() ['P'] = mid
+            return P
 
         else:
             if list[mid] < n:
@@ -18,9 +18,9 @@ def bsearch(list,n):
     return False
 
 
-ll = [x for x in range(1,1000)]
-n = 200
-if bsearch(ll,n):
-    print("Found at",p+1)
-else:
-    print("Not found")
+# ll = [x for x in range(1,1000)]
+# n = 200
+# if bsearch(ll,n):
+#     print("Found at",p+1)
+# else:
+#     print("Not found")
