@@ -21,3 +21,5 @@ while i <= 10:
   i += 1
 
 print(myPrimeNumbers)
+
+d = {"id":"1","child":[{"id":"1.1","child":[{"id":"1.1.1","child":[{"id":"1.1.1.1","child":[{}]}]}]},{"id":"1.2","child":[{"id":"1.2.1","child":[{}]}]}]}
